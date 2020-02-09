@@ -1,15 +1,14 @@
 package main
 
 import (
-	"test/design/optimize/decorative"
-	"test/design/optimize/make_up"
+	"designPatternGolang/optimize/decorative"
+	"designPatternGolang/optimize/make_up"
 )
 
 func main() {
 
 	//===组合模式===
 	var sMerchant,bigMerchant make_up.Merchant
-
 	sMerchant = &make_up.SingleMerchant{Name: "pwr"}
 	//sMerchant.Show(1)
 

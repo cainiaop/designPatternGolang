@@ -1,5 +1,6 @@
 package decorative
 
+//装饰模式：把装饰（非核心功能）从主类中迁移出来
 import "fmt"
 
 //人

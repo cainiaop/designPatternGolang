@@ -1,11 +1,11 @@
 package main
 
 import (
+	"designPatternGolang/object/abstract_factory"
+	"designPatternGolang/object/easy_factory"
+	"designPatternGolang/object/normal_factory"
+	"designPatternGolang/object/singleton"
 	"fmt"
-	"test/design/object/abstract_factory"
-	"test/design/object/easy_factory"
-	"test/design/object/normal_factory"
-	"test/design/object/singleton"
 )
 
 func main() {
